@@ -317,6 +317,8 @@ h3 {
   font-size: 14px;
   color: var(--ink-2);
 }
+address.fine { font-style: normal; }
+address.fine + .fine { margin-top: 4px; }
 .fine {
   margin-top: 12px;
   max-width: 80ch;
